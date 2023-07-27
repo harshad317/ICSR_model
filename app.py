@@ -3,8 +3,8 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import torch
 
 MODEL_NAME3 = "DKTech/ICSR_classification_model_biolinkbert_2"
-tokenizer3 = AutoTokenizer.from_pretrained(MODEL_NAME3, use_auth_token= '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')
-model3 = AutoModelForSequenceClassification.from_pretrained(MODEL_NAME3, use_auth_token= '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')
+tokenizer3 = AutoTokenizer.from_pretrained(MODEL_NAME3, use_auth_token= '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')
+model3 = AutoModelForSequenceClassification.from_pretrained(MODEL_NAME3, use_auth_token= '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')
 
 
 def predict_sentiment3(text):
