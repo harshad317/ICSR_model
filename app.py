@@ -29,7 +29,7 @@ if st.button("Analyze"):
     if sentiment == 1:
         st.success("ICSR")
     else:
-        st.error("Discarded NICSR")
+        st.error("Discarded ICSR")
     
     st.write(f"Probability of Discarded ICSR {probs[0]:.2f}")
     st.write(f"Probability of ICSR {probs[1]:.2f}")
