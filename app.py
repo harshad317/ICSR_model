@@ -3,6 +3,7 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import torch
 
 MODEL_NAME3 = "DKTech/ICSR_classification_model_biolinkbert_2"
+# Change the token name
 tokenizer3 = AutoTokenizer.from_pretrained(MODEL_NAME3, use_auth_token= 'Your token')
 model3 = AutoModelForSequenceClassification.from_pretrained(MODEL_NAME3, use_auth_token= 'Your token')
 
